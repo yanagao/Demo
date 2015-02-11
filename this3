@@ -1,0 +1,7 @@
+// 直接调用一个函数
+var x = 1;
+function test(){
+　　this.x = 0;
+}
+test();
+alert(x);
