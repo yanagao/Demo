@@ -1,7 +1,7 @@
 // 直接调用一个函数
 var x = 1;
-function test(){
+function test3(){
 　　this.x = 0;
 }
-test();
+test3();
 alert(x);
