@@ -1,0 +1,7 @@
+// new 调用一个构造函数
+var x = 2;
+function test(){
+  this.x = 1;
+}
+var o = new test();
+alert(x); // 2
